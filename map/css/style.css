@@ -89,8 +89,6 @@ li {
 .p-footer {
   color: #ffffff;
 }
-
-
 .footer-hr {
   border: none;
     color: #ffffff; 
@@ -138,50 +136,56 @@ li {
   bottom: 55px;
   right: 75px;
 }
-.alligator {
+.tag-animal {
+  background-image: url("../../img/Tag.png");
+  background-repeat: no-repeat;
+  background-position: center;
   position: relative;
-  bottom: 505px;
-  left: 296px;
+  width: 100px;
+  height: 150px;
+}
+.tag-animal:hover {
+  background-image: url("../../img/icon/Tag-activ.png"), url("../../img/icon/Tag-activ-1.png");
+}
+.center-img {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.alligator {
+  bottom: 515px;
+  left: 290px;
 }
 .lion {
-  position: relative;
-  bottom: 585px;
+  bottom: 620px;
   left: 580px;
 }
 .gorilla {
-  position: relative;
-  bottom: 700px;
+  bottom: 740px;
   left: 690px;
 }
 .lemur {
-  position: relative;
-  bottom: 680px;
-  left: 800px;
+  bottom: 770px;
+  left: 795px;
 }
 .panda {
-  position: relative;
-  bottom: 1040px;
-  left: 990px;
+  bottom: 1170px;
+  left: 955px;
 }
 .tiger {
-  position: relative;
-  bottom: 1035px;
-  left: 1020px;
+  bottom: 1150px;
+  left: 1010px;
 }
 .coala {
-  position: relative;
-  bottom: 1035px;
-  left: 1135px;
+  bottom: 1200px;
+  left: 1120px;
 }
-.eagle {
-  position: relative;
-  bottom: 1385px;
-  left: 170px;
+.eagle {    
+  bottom: 1565px;
+  left: 165px;
 }
-.btn-footer p {
-	padding-left: 15px;
-	padding-top: 15px;
-}
+
 
 .btn-footer {
   margin-top: 70px;
@@ -196,10 +200,8 @@ li {
   font-weight: 600;
   font-size: 18px;
   line-height: 22px;
-  display: flex;
 }
 .btn-footer img {
-  padding-top: 10px;
   padding-left: 15px;
 }
 .btn-footer:hover {
@@ -221,4 +223,9 @@ li {
 }
 .activ a {
    color: #ffffff;
+}
+.all-btn {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
 }
